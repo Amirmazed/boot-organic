@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+.navbar-brand{
+    font-size: 2rem;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.navbar-brand:hover{
+    color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    color: black;
+    text-transform: uppercase;
+}
+.nav-link:hover{
+    color: black;
+}
+
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    border: 2px solid rgb(248, 26, 92);
+    margin-right: -30px;
+}
+
+.btn0{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    font-weight: 700;
+    border-radius: 60px;
+}
+
+
+.main{
+    background: url("img/lunchcopy.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    height: 100vh;
+    width: 100%;
+}
+
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.btn1{
+    height: 45px;
+    width: 35%;
+    border:  none;
+    outline: none;
+    background: rgb(248, 26, 92);
+    color: white;
+    border-radius: 60px;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+
+.btn1:hover{
+    background: rgb(163, 5, 52);
+   
+}
+.card{
+    transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0px 0px 20px 1px #000000;
+}
+
+
+.apple{
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)) ,url("img/red.jpg")no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.apple h1{
+    font-family: 'Lobster', cursive;
+}
+
+
+.news{
+    background: black;
+    color: white;
+}
+
+.news input{
+    height: 45px;
+    width: 220px;
+    border: 2px solid white;
+    outline: none;
+    background: black;
+    color: white;
+    margin-top: 20px;
+    font-weight: 600;
+} 
+
+
+.btn2{
+    height: 45px;
+    width: 80px;
+    border: 2px solid white;
+    outline: none;
+    background: white;
+    color: black;
+    margin-top: 20px;
+    font-weight: 600;
+    
+}
+
+.news::placeholder{
+    color: white;
+}
+
+
+.news p{
+    margin: 0;
+}
+
+footer{
+    height: 20px;
+    background: black;
+}
